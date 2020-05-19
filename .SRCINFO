@@ -22,7 +22,7 @@ pkgbase = python-sphinx-2
 	depends = python-sphinxcontrib-serializinghtml
 	optdepends = imagemagick: for ext.imgconverter
 	optdepends = texlive-latexextra: for generation of PDF documentation
-	provides = python-sphinx
+	provides = python-sphinx=2.4.4
 	conflicts = python-sphinx
 	source = https://pypi.org/packages/source/S/Sphinx/Sphinx-2.4.4.tar.gz
 	source = https://pypi.org/packages/source/S/Sphinx/Sphinx-2.4.4.tar.gz.asc

@@ -1,4 +1,5 @@
 # Maintainer: Yurii Kolesnykov <root@yurikoles.com>
+# Contributor: Felix Golatofski <contact@xdfr.de>
 # Based on python-sphinx: Johannes Löthberg <johannes@kyriasis.com>, Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=python-sphinx-2
@@ -22,8 +23,8 @@ depends=('python-babel'
 #              'python-html5lib'
 #              'python-pytest'
 #              'texlive-fontsextra' 'texlive-latexextra')
-provides=(python-sphinx)
-conflicts=(python-sphinx)
+provides=("python-sphinx=$pkgver")
+conflicts=("python-sphinx")
 optdepends=('imagemagick: for ext.imgconverter'
             'texlive-latexextra: for generation of PDF documentation')
 source=("https://pypi.org/packages/source/S/Sphinx/Sphinx-$pkgver.tar.gz"{,.asc})
